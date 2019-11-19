@@ -34,7 +34,7 @@
                 <nav>
                     <ul>
                         <li class="nav-list"><a class="home-nav" href="index.html">Home</a></li>
-                        <li class="nav-list"><a class="profile-nav" href="Profile.html">Profile</a></li>
+                        <li class="nav-list"><a class="profile-nav" href="profile.html">Profile</a></li>
                         <li class="nav-list"><a class="work-nav" href="work.html">Work</a></li>
                         <li class="off-nav">Contact</li>
                     </ul>
