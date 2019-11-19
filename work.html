@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daichi's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+    <body>
+        <!-- レスポンシブナビ -->
+        <header>
+            <div class="logo">Daichi's Portfolio</div>
+            <a class="nav-button" href="#">
+                <span class="bar-top"></span>
+                <span class="bar-middle"></span>
+                <span class="bar-bottom"></span>
+            </a>
+            <nav class="nav-wrap">
+                <ul class="sp-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="sidebar">
+                <h1>Daichi's Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li class="nav-list"><a class="home-nav" href="index.html">Home</a></li>
+                        <li class="nav-list"><a class="profile-nav" href="Profile.html">Profile</a></li>
+                        <li class="off-nav">Work</li>
+                        <li class="nav-list"><a class="contact-nav" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- ページの内容 -->
+            <div class="about">
+                <ul>
+                    <li class="nav-cover home-cover"><img src="./images/home_cover.jpeg"></li>
+                    <li class="nav-cover profile-cover"><img src="./images/Profile_cover.jpeg"></li>
+                    <li class="nav-cover contact-cover"><img src="./images/Contact_cover.jpeg"></li>
+                </ul>
+                <div class="inner work-inner">
+                    <h2>制作実績</h2>
+
+                    <!-- 実績一覧 -->
+                    <ul class="works-wrap">
+                        <li class="works">
+                            <div class="works-img">
+                                <img src="./images/works-img-paspol.jpg" width="300" height="200"></img>
+                            </div>
+                            <div class="works-caption">
+                                <h3>PAS-POL（模写制作）</h3>
+                                <p>2019年8月</p>
+                            </div>
+                        </li>
+                        <li class="works">
+                            <div class="works-img">
+                                <img src="./images/works-img-asoview.jpg" width="300" height="200"></img>
+                            </div>
+                            <div class="works-caption">
+                                <h3>asoview（模写制作）</h3>
+                                <p>2019年9月</p>
+                            </div>
+                        </li>
+                        <li class="works">
+                            <div class="works-img">
+                                <img src="./images/comingsoon.jpeg" width="300" height="200">
+                            </div>
+                            <div class="works-caption">
+                                <h3>制作中</h3>
+                                <p>未定</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- モーダルウィンドウ -->
+                    <ul class="modal-wrap">
+                        <li class="modal-window">
+                            <div class="modal-title">
+                                <h3>PAS-POL（模写制作）</h3>
+                                <p>HTML/CSS/jQuery</p>
+                            </div>
+                            <div class="modal-img">
+                                <img src="./images/works-img-paspol.jpg">
+                            </div>
+                            <div class="close-btn">CLOSE</div>
+                        </li>
+                        <li class="modal-window">
+                            <div class="modal-title">
+                                <h3>asoview（模写制作）</h3>
+                                <p>HTML/CSS/jQuery</p>
+                            </div>
+                            <div class="modal-img">
+                                <img src="./images/works-img-asoview.jpg">
+                            </div>
+                            <div class="close-btn">CLOSE</div>
+                        </li>
+                        <li class="modal-window">
+                            <div class="modal-title">
+                                <h3>Coming Soon</h3>
+                                <p>-</p>
+                            </div>
+                            <div class="modal-img">
+                                <img src="./images/comingsoon.jpeg">
+                            </div>
+                            <div class="close-btn">CLOSE</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
